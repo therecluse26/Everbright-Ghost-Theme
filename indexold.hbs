@@ -1,0 +1,23 @@
+{{!< default}}
+
+{{> "header-home" }}
+
+{{#foreach posts}}
+<section class="home-image main home-style fullscreen" style="{{#if image}}background-image:url('{{image}}'){{else}}background-image:url('/assets/images/empty.png'); background-repeat: repeat{{/if}}" data-url="{{url}}">
+	<div class="content container small">
+		<div class="titleDiv">
+		<h3>{{{title}}}</h3>
+
+
+		<h5>{{date format="DD MMMM YYYY"}}</h5>
+
+
+		</div>
+	</div>
+</section>
+{{/foreach}}
+
+{{pagination}}
+
+
+{{> "footer-home" }}

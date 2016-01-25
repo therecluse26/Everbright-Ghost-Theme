@@ -1,0 +1,26 @@
+{{!< default}}
+
+{{> "header-home" }}
+
+{{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
+
+         {{#foreach tags}}
+
+   <section class="home-image main home-style" style="{{#if image}}background-image:url('{{image}}'){{else}}background-image:url('/assets/images/empty.png'); background-repeat: repeat{{/if}}" data-url="/tag/{{slug}}">
+	<div class="content container small">
+		<div class="titleDiv">
+
+		<h2>{{name}}</h2>
+
+		</div>
+	</div>
+</section>
+
+         {{/foreach}}
+
+{{/get}}
+
+<br>
+{{pagination}}
+
+{{> "footer-home" }}

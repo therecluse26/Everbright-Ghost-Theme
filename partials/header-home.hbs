@@ -1,0 +1,20 @@
+<!-- Header for posts / pages, must be placed in #post helper -->
+<header id="post-header" class="post-header">
+	<h1 id="logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+	<nav id="nav">
+		<ul class="wht">
+			{{> "menu-top" }}
+		</ul>
+	</nav>
+	<nav id="nav-mobile">
+		<a href="#mobile-menu" class="icon fa-bars in-post"><span class="label">Menu</span></a>
+	</nav>
+		<nav id="mobile-menu">
+			<ul>
+				{{> "menu-top" }}
+			</ul>
+		</nav>
+	</nav>
+</header>
+</div>
+

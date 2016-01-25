@@ -1,0 +1,64 @@
+/*
+	Everbright - Ghost theme therecluse26
+	github.com/therecluse26
+*/
+
+body {
+	width: 100%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input,textarea,select {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container > .container {
+	width: 100% !important;
+	height:auto;
+}
+
+
+#nav {
+	display: none;
+}
+
+#nav-mobile {
+	display: inline-block;
+	right: 0;
+}
+
+#nav-mobile .in-post {
+	color: #fff;
+}
+
+.mm-menu {
+	max-width: 40% !important;
+}
+
+#footer {
+	height: auto;
+	line-height: inherit;
+	text-align: center;
+	padding: 2em 1em 2em 1em;
+}
+
+#footer .actions {
+	position: relative;
+	left: 0;
+	top: 0;
+	height: auto;
+	line-height: inherit;
+	margin: 0 0 1em 0;
+}
+
+#footer .menu {
+	position: relative;
+	right: 0;
+	top: 0;
+	height: auto;
+	line-height: inherit;
+}

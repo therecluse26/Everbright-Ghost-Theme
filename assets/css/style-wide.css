@@ -1,0 +1,14 @@
+/*
+	Everbright - Ghost theme therecluse26
+	github.com/therecluse26
+*/
+
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body,input,textarea,select {
+	font-size: 17pt;
+}
