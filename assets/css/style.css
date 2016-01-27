@@ -1941,7 +1941,7 @@ ul.wht li a:hover {
 
 .main.taggy-style {
 	text-align: center;
-	padding: 25vh 0 25vh 0;
+	padding: 22.5vh 0 22.5vh 0;
 	color: #fff;
 	width: 100%;
 }
@@ -1956,12 +1956,14 @@ ul.wht li a:hover {
 	background-position: center center;
 	z-index: 0;
 }
-.post-cover-image.home-style, post-cover-image.taggy-style {
+.post-cover-image.home-style, .post-cover-image.taggy-style {
 	text-align: center;
 	padding: 0;
 }
 .main.home-style h2,
-.post-cover-image.home-style h2, main.taggy-style {
+.post-cover-image.home-style h2,
+.main.taggy-style h2,
+.post-cover-image.taggy-style h2 {
 	font-size: 5.5vw;
 	line-height: 1em;
 	letter-spacing: -2px;
@@ -1969,7 +1971,7 @@ ul.wht li a:hover {
 .main.home-style .content,
 .main.taggy-style .content,
 .post-cover-image.home-style .content,
-post-cover-image.taggy-style .content {
+.post-cover-image.taggy-style .content {
 	opacity: 1.0;
 	-moz-transition: all 1s ease;
 	-webkit-transition: all 1s ease;

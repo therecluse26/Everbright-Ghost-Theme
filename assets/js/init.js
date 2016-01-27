@@ -32,6 +32,9 @@
 				zposition	: "front"
 			}
 		});
+		$("#mobile-menu").css({
+			visibility: "visible"
+		});
 
 		var	$window = $(window),
 			$body = $('body'),
