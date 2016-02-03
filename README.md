@@ -4,9 +4,9 @@ Demo: [http://www.everbrightstudio.com](http://www.everbrightstudio.com)
 
 **IMPORTANT** Requires Ghost version `0.7.4` or higher for API feature. In v.`0.7.4`, navigate to `Labs` in the admin panel and check the box next to `Public API`
 
-Everbright is a theme based on "Creator X" by Phantomus made for photography sites, intended to be clean, organized, scalable and intuitive. This theme differs from many others in that it is organized hierarchically with Ghost tags. 
+Everbright is a theme based on "Creator X" by Phantomus made for photography sites, intended to be clean, organized, scalable and intuitive. This theme differs from many others in that it is organized hierarchically with Ghost tags.
 
-The basic structure from top to bottom is as follows: 
+The basic structure from top to bottom is as follows:
 
 > ***Tag --> Posts with this tag --> Individual post***
 
@@ -35,7 +35,7 @@ Lightbox:
 ###Lightbox Example
 ![Lightbox example](http://res.cloudinary.com/establishmysteps/image/upload/v1453746757/Everbright_Example_2_k5capi.jpg)
 
-***Version 1.0***
+***Version 1.0 Feature Summary***
 
 ~~~
 - Tag-based grouping
@@ -53,4 +53,4 @@ Lightbox:
 * "Ghost" blogging platform - ([https://github.com/TryGhost/Ghost](https://github.com/TryGhost/Ghost) | (c) Ghost Foundation)
 * "Creator X" Theme - ([https://github.com/phantomus-host/creatorx](https://github.com/phantomus-host/creatorx) | (c) Phantomus)
 * "Skel" responsive framework - ([https://github.com/n33/skel](https://github.com/n33/skel) | (c) n33)
-* "Magnific Popup" lightbox - ([https://github.com/dimsemenov/Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) | (c) Dmitry Semenov) 
+* "Magnific Popup" lightbox - ([https://github.com/dimsemenov/Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) | (c) Dmitry Semenov)

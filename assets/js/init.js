@@ -14,10 +14,10 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'max': { range: '*', href: '/assets/css/style.css', containers: 1440, viewport: { scalable: false }, grid: { gutters: 40 } },
-			'wide': { range: '-1920', href: '/assets/css/style-wide.css', containers: 1360 },
-			'normal': { range: '-1680', href: '/assets/css/style-normal.css', containers: 1200 },
-			'narrow': { range: '-1000', href: '/assets/css/style-narrow.css', containers: 960 },
+			'max': { range: '*', href: '/assets/css/style.css', containers: '95%', viewport: { scalable: false }, grid: { gutters: 40 } },
+			'wide': { range: '-1920', href: '/assets/css/style-wide.css', containers: '95%' },
+			'normal': { range: '-1680', href: '/assets/css/style-normal.css', containers: '95%' },
+			'narrow': { range: '-1000', href: '/assets/css/style-narrow.css', containers: '95%' },
 			'narrower': { range: '-700', href: '/assets/css/style-narrower.css', containers: '95%' },
 			'mobile': { range: '-500', href: '/assets/css/style-mobile.css', grid: { gutters: 20 } },
 			'mobile-narrow': { range: '-380', grid: { collapse: true, gutters: 10 } }

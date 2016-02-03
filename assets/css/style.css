@@ -23,6 +23,12 @@ opacity: 1;
 transition: all .1s ease-in;
 }
 
+#post_title {
+	margin-top: 5rem;
+	width: 100%;
+	text-align: center;
+}
+
 a:focus {
 outline: 0;
 outline: none;
@@ -2060,7 +2066,7 @@ ul.wht li a:hover {
 	width: 80vw;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2em;
+	margin-top: 0em;
 }
 .post-content.text-left {
 	text-align: left;

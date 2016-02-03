@@ -109,3 +109,6 @@ body,input,textarea,select {
 	float: right;
 	display: inline-block;
 }
+#post_title {
+	font-size: 3em;
+}
